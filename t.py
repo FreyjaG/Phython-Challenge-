@@ -1,15 +1,7 @@
+import array as arr
+a = arr.array('i', [2, 4, 6, 8])
 
-# function which return reverse of a string
-name = input("")
-def isPalindrome(s):
-    return s == s[::-1]
- 
- 
-# Driver code
-ans = isPalindrome(name)
- 
-if ans:
-    print("Yes")
-else:
-    print("No")
-    
+print("First element:", a[0])
+print("Second element:", a[1])
+print("Last element:", a[-1])
+
